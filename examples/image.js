@@ -14,6 +14,15 @@ let preloadImg = path => {
 preloadImg('https://ichef.bbci.co.uk/news/624/cpsprodpb/121F2/production/_101962247_mediaitem101962246.jpg')
   .then(response => {
     console.log('success', response);
+
+    // If using resolve for onerror:
+    /*
+    if (response.error === true) {
+      console.log('error', response);
+    } else {
+      console.log('success', response);
+    }
+    */
   })
   .catch(response => {
     console.log('error', response);
