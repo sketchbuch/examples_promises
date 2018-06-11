@@ -1,2 +1,4 @@
 # examples_promises
-Just a few examles of promises
+Examples of some JavaScript Promises for personal reference.
+
+* [Promise to preload an image](/examples/image.js)
